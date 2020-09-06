@@ -1,0 +1,44 @@
+.fullscreen1 {
+	position: relative;
+	background-color: #252629;
+	background: radial-gradient(
+		circle farthest-corner at 50px 25px,
+		#404045,
+		#404045,
+		#35343a,
+		#36353a,
+		#323136,
+		#2c2c2e,
+		#2c2c2e,
+		#2a2a2e,
+		#262629,
+		#1b1e22,
+		#1b1e22
+	);
+}
+.fullscreen2 {
+	background: linear-gradient(170deg, #323136, #1b1e22);
+}
+
+.fullscreen3 {
+	background-color: #ffffff;
+}
+
+.fullscreen4 {
+	position: relative;
+	background-color: #252629;
+	background: radial-gradient(
+		circle farthest-corner at 50px 25px,
+		#404045,
+		#404045,
+		#35343a,
+		#36353a,
+		#323136,
+		#2c2c2e,
+		#2c2c2e,
+		#2a2a2e,
+		#262629,
+		#1b1e22,
+		#1b1e22
+	);
+}

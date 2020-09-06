@@ -1,0 +1,295 @@
+.content-wrapper1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 300px;
+}
+
+.wrapper-hero__text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.title-slider1 {
+	display: inline-block;
+	margin: 0;
+	font-size: 7vw;
+	font-family: "Monoton";
+
+	letter-spacing: 0.1em;
+	color: #dfdfdf;
+	margin-bottom: 10%;
+
+	text-shadow: 5px 5px 40px #0e0d0d;
+	animation: titleAnimation both 1s 0.6s linear;
+}
+
+.title--annimations-revers {
+	animation: titleAnimationReverse both 0.5s linear;
+}
+@keyframes titleAnimationReverse {
+	0% {
+		transform: translateY(-11vh);
+		opacity: 1;
+	}
+	25% {
+		transform: translateY(-3vh);
+		opacity: 0.7;
+	}
+
+	50% {
+		transform: translateY(4vh);
+		opacity: 0.5;
+	}
+	75% {
+		transform: translateY(0.5vh);
+		opacity: 0.3;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 0;
+	}
+}
+
+@keyframes titleAnimation {
+	0% {
+		transform: translateY(-11vh);
+		opacity: 0;
+	}
+	25% {
+		transform: translateY(-3vh);
+		opacity: 0.3;
+	}
+
+	50% {
+		transform: translateY(4vh);
+		opacity: 0.5;
+	}
+	75% {
+		transform: translateY(0.5vh);
+		opacity: 0.7;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.inscription-title {
+	align-self: flex-start;
+	font-weight: 100;
+	margin-bottom: 10%;
+	margin-left: 15%;
+	font-size: 0.9vw;
+	color: #dfdfdf;
+	transform: translateX(50vh);
+
+	animation: inscriptionTitle both 1s 0.7s linear;
+}
+
+.inscription-title--animation-revers {
+	animation: inscriptionTitleReverse both 0.5s linear;
+}
+
+@keyframes inscriptionTitleReverse {
+	0% {
+		transform: translateX(0vh);
+		opacity: 0;
+	}
+	25% {
+		transform: translateX(5vh);
+		opacity: 0.8;
+	}
+	50% {
+		transform: translateX(10vh);
+		opacity: 0.6;
+	}
+	75% {
+		transform: translateX(25vh);
+		opacity: 0.4;
+	}
+	100% {
+		transform: translateX(50vh);
+		opacity: 0;
+	}
+}
+@keyframes inscriptionTitle {
+	0% {
+		transform: translateX(50vh);
+		opacity: 0;
+	}
+	25% {
+		transform: translateX(25vh);
+		opacity: 0.4;
+	}
+	50% {
+		transform: translateX(10vh);
+		opacity: 0.6;
+	}
+	75% {
+		transform: translateX(5vh);
+		opacity: 0.8;
+	}
+	100% {
+		transform: translateX(0vh);
+		opacity: 1;
+	}
+}
+.sign-title {
+	font-weight: 100;
+	align-self: flex-end;
+	margin-right: 10%;
+	font-size: 0.9vw;
+	color: #dfdfdf;
+	animation: signTitle both 1s 0.7s linear;
+}
+
+.sign-title--animation-revers {
+	animation: signTitleRevers both 0.5s linear;
+}
+@keyframes signTitleRevers {
+	0% {
+		transform: translateX(0vh);
+		opacity: 1;
+	}
+	25% {
+		transform: translateX(5vh);
+		opacity: 0.8;
+	}
+	50% {
+		transform: translateX(-10vh);
+		opacity: 0.6;
+	}
+	75% {
+		transform: translateX(-25vh);
+		opacity: 0.4;
+	}
+	100% {
+		transform: translateX(-50vh);
+		opacity: 0;
+	}
+}
+
+@keyframes signTitle {
+	0% {
+		transform: translateX(-50vh);
+		opacity: 0;
+	}
+	25% {
+		transform: translateX(-25vh);
+		opacity: 0.4;
+	}
+	50% {
+		transform: translateX(-10vh);
+		opacity: 0.6;
+	}
+	75% {
+		transform: translateX(-5vh);
+		opacity: 0.8;
+	}
+	100% {
+		transform: translateX(0vh);
+		opacity: 1;
+	}
+}
+
+.footer {
+	position: absolute;
+	padding: 4vh 2vw;
+	bottom: 0;
+	z-index: 11;
+	display: flex;
+	color: #969696;
+	width: 100vw;
+
+	animation: footer both 2s linear 0.5s;
+}
+
+.footer--animation-revers {
+	animation: footerRevers both 0.5s linear;
+}
+
+@keyframes footerRevers {
+	0% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0.66;
+	}
+	60% {
+		opacity: 0.33;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes footer {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 0.33;
+	}
+	60% {
+		opacity: 0.66;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.social-item {
+	font-size: 2.4vh;
+	padding-bottom: 1vh;
+}
+
+.scroll-wrapper {
+	display: inline-block;
+	margin-left: auto;
+	margin-bottom: 4vw;
+
+	transform: rotate(90deg);
+}
+
+.social-item:last-child {
+	padding-bottom: 0s;
+}
+.scroll {
+	display: inline-block;
+
+	font-size: 1vh;
+	letter-spacing: 0.4em;
+	transform: translateX(0%);
+
+	animation: scroll 2s infinite linear both;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0%);
+	}
+	25% {
+		transform: translateX(7%);
+	}
+	50% {
+		transform: translateX(0%);
+	}
+	75% {
+		transform: translateX(-7%);
+	}
+	100% {
+		transform: translateX(0%);
+	}
+}
+.down-scroll::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 1px;
+	top: 1.6vh;
+	left: 5vw;
+	background-color: #969696;
+}
