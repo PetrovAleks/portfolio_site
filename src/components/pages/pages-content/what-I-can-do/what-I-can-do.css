@@ -172,3 +172,9 @@
 	opacity: 1;
 	box-shadow: 1px 1px 13px 3px #45474bb6;
 }
+
+@media screen and (min-width: 320px) and (max-width: 739px) {
+	.portfolio {
+		width: 100vw;
+	}
+}

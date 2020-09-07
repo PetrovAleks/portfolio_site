@@ -71,14 +71,14 @@ export default class WhaIcanDo extends Component {
 					};
 				});
 			}
-		}, 1000);
+		}, 800);
 
 		setTimeout(() => {
 			this.refs.itemImg.forEach((el) => {
 				el.classList.add("selected-item");
 				el.classList.remove("about-portfolio-next");
 			});
-		}, 1300);
+		}, 1100);
 	};
 	setPreviousItemId = () => {
 		this.removeClassSelected();
@@ -99,14 +99,14 @@ export default class WhaIcanDo extends Component {
 					};
 				});
 			}
-		}, 1000);
+		}, 800);
 
 		setTimeout(() => {
 			this.refs.itemImg.forEach((el) => {
 				el.classList.add("selected-item");
 				el.classList.remove("about-portfolio-previous");
 			});
-		}, 1300);
+		}, 1100);
 	};
 	render() {
 		const { itemId, sliderImg } = this.state;

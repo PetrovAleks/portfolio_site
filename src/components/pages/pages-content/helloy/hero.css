@@ -196,6 +196,16 @@
 	}
 }
 
+@media screen and (min-width: 320px) and (max-width: 739px) {
+	.title-slider1 {
+		font-size: 22px;
+	}
+	.inscription-title,
+	.sign-title {
+		font-size: 7px;
+	}
+}
+
 .footer {
 	position: absolute;
 	padding: 4vh 2vw;
@@ -292,4 +302,50 @@
 	top: 1.6vh;
 	left: 5vw;
 	background-color: #969696;
+}
+
+@media screen and (min-width: 320px) and (max-width: 739px) {
+	.content-wrapper1 {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.footer {
+		position: absolute;
+
+		bottom: 70px;
+		z-index: 11;
+		display: flex;
+		flex-direction: column;
+
+		color: #969696;
+		width: 100vw;
+	}
+
+	.social-list {
+		padding-bottom: 50px;
+		display: inline-flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.social-item {
+		margin-right: 30px;
+	}
+	.social-item:last-child {
+		margin-right: 0;
+	}
+
+	.social-item__ico {
+		width: 20px;
+		height: 20px;
+	}
+
+	.scroll-wrapper {
+		display: block;
+		margin-right: auto;
+	}
+	.down-scroll::after {
+		display: none;
+	}
 }

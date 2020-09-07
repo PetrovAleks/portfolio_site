@@ -41,7 +41,7 @@ export default class WhoAmI extends Component {
 			aboutSkills.classList.remove("about-skills-next");
 			aboutSkillsSvg.classList.remove("about-skills-next");
 			skillsText.classList.remove("about-skills-next");
-		}, 800);
+		}, 500);
 	};
 	setPreviousSlider = () => {
 		const { aboutSkills, aboutSkillsSvg, skillsText } = this.refs;
@@ -65,7 +65,7 @@ export default class WhoAmI extends Component {
 			aboutSkills.classList.remove("about-skills-previous");
 			aboutSkillsSvg.classList.remove("about-skills-previous");
 			skillsText.classList.remove("about-skills-previous");
-		}, 800);
+		}, 500);
 	};
 
 	render() {

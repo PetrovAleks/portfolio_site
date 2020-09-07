@@ -6,7 +6,7 @@ import "./contacts.css";
 const Contacts = () => {
 	return (
 		<>
-			<div className="contacts-form">
+			<div className="contacts-form contacts-form__info ">
 				<h2
 					data-name="contacts-title"
 					className=" title-slider1 contacts-animation contacts-title"

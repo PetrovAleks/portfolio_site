@@ -20,7 +20,7 @@ class SliderPreview extends Component {
 							target="_blank"
 							href={`${site}`}
 						>
-							click
+							LINK
 						</a>
 					</p>
 					<p className="img-inscription">
@@ -30,7 +30,7 @@ class SliderPreview extends Component {
 							target="_blank"
 							href={`${code}`}
 						>
-							click
+							LINK
 						</a>
 					</p>
 				</div>

@@ -5,6 +5,7 @@ import localStor from "../images/portfolio/localStor.png";
 import search_img from "../images/portfolio/search_img.png";
 import timer from "../images/portfolio/timer.png";
 import vanilaSlider from "../images/portfolio/Vanila-slider.png";
+import toDoList from "../images/portfolio/Screensh.png";
 
 const dataImg = [
 	blog,
@@ -14,6 +15,7 @@ const dataImg = [
 	search_img,
 	timer,
 	vanilaSlider,
+	toDoList,
 ];
 const dataPreview = [
 	{
@@ -79,7 +81,15 @@ const dataPreview = [
 		img: vanilaSlider,
 		id: 6,
 	},
-	null,
+	{
+		site: "https://petrovaleks.github.io/react__ToDo-list/",
+		code: "https://github.com/PetrovAleks/react__ToDo-list",
+		name: "Список дел",
+		text:
+			"Небольшое приложение  на React, в котором можно записать, вычеркнуть,выделить или удалить список дел на день. ",
+		img: toDoList,
+		id: 7,
+	},
 ];
 
 export { dataImg, dataPreview };
